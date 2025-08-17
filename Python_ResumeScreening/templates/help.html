@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f8f9fa;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4b6cb7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #182848;
+        }
+        #message {
+            margin-top: 30px;
+            font-size: 20px;
+            color: #dc2626;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Need Help?</h1>
+    <button onclick="showHelp()">Help</button>
+
+    <div id="message"></div>
+
+    <script>
+        function showHelp() {
+            document.getElementById("message").innerText = "Just saying — do it on your own.";
+        }
+    </script>
+
+</body>
+</html>

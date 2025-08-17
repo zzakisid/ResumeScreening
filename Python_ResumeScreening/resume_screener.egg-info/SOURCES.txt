@@ -1,0 +1,6 @@
+setup.py
+resume_screener.egg-info/PKG-INFO
+resume_screener.egg-info/SOURCES.txt
+resume_screener.egg-info/dependency_links.txt
+resume_screener.egg-info/top_level.txt
+tests/testParsing.py
